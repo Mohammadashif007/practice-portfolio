@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+
+.nav-title {
+    font-Weight: 800;
+    font-Size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+/* .banner-text h3 {
+    color: #474747;
+    font-size: 45px;
+    color: #181818;
+}
+
+.banner-text h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #181818;
+} */
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* main section */
+
+main {
+    width: 1140px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+
+.about-me {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 150px 130px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+/* .section-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+} */
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.my-info {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.info {
+    text-align: center;
+    /* align-items: center; */
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
